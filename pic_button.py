@@ -1,7 +1,7 @@
 from botbuilder.core import TurnContext,ActivityHandler,MessageFactory,CardFactory
 from botbuilder.schema import Attachment,MediaUrl,HeroCard,CardImage,CardAction,ActionTypes
 
-
+ 
 class SampleAnimationCard(ActivityHandler):
    def __init__(self):
       pass
